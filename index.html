@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercado Tech</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Estilos exclusivos del landing */
+    .landing-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      gap: 2rem;
+    }
+
+    .landing-subtitle {
+      color: #80ffea;
+      text-shadow: 0 0 10px #00fff2;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+    }
+
+    .opciones {
+      display: flex;
+      gap: 3rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .opcion-card {
+      background: rgba(0, 0, 30, 0.6);
+      border: 2px solid #00ffff;
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      width: 240px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 20px rgba(0,255,255,0.2);
+      text-decoration: none;
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .opcion-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 0 40px rgba(0,255,255,0.5);
+      color: #fff;
+      border-color: #00ffff;
+    }
+
+    .opcion-icon {
+      font-size: 3.5rem;
+    }
+
+    .opcion-titulo {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #00eaff;
+      text-shadow: 0 0 10px #00eaff;
+    }
+
+    .opcion-desc {
+      font-size: 0.85rem;
+      color: #a0c4cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>🖥️ Mercado Tech</h1>
+
+  <div class="landing-container">
+    <p class="landing-subtitle">¿Cómo deseas continuar?</p>
+
+    <div class="opciones">
+
+      <!-- Opción Comprador -->
+      <a class="opcion-card" href="pages/mercado.html">
+        <div class="opcion-icon">🛒</div>
+        <div class="opcion-titulo">Comprador</div>
+        <div class="opcion-desc">Explorar productos, agregar al carrito y generar tu factura</div>
+      </a>
+
+      <!-- Opción Administrador -->
+      <a class="opcion-card" href="pages/admin.html">
+        <div class="opcion-icon">🛠️</div>
+        <div class="opcion-titulo">Administrador</div>
+        <div class="opcion-desc">Ver facturas, total recaudado y rendimiento de empleados</div>
+      </a>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
