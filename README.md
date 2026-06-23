@@ -1,5 +1,44 @@
 # 🖥️ Mercado Tech
 
+Plataforma web para la comercialización de productos tecnológicos desarrollada como proyecto académico de Tecnología en Sistematización de Bases de Datos.
+
+## 🎯 Objetivo
+
+Desarrollar una aplicación web que permitiera gestionar productos, realizar compras y generar facturas utilizando una arquitectura cliente-servidor con conexión a base de datos.
+
+## ⚙️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Express.js
+- MySQL
+- Sequelize
+
+## ✨ Funcionalidades principales
+
+- Catálogo de productos.
+- Carrito de compras.
+- Generación de facturas.
+- Gestión de empleados.
+- Panel de administración.
+- Almacenamiento de información en MySQL.
+- API REST desarrollada con Express.
+- ORM Sequelize para acceso a datos.
+
+## 📚 Aprendizajes obtenidos
+
+Durante este proyecto fortalecí conocimientos en:
+
+- Desarrollo Frontend.
+- Desarrollo Backend con Node.js.
+- Diseño y gestión de bases de datos MySQL.
+- Arquitectura cliente-servidor.
+- Consumo de APIs.
+- ORM Sequelize.
+- Trabajo colaborativo mediante Git y GitHub.
+
 ## 👥 Autores
 
 | **Nombre** | **Código** |
